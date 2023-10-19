@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    @apply font-lato;
+}
 
 .container-sample{
     @apply w-full pr-4 pl-4 mr-auto ml-auto sm:max-w-container-small md:max-w-container-medium lg:max-w-container-big xl:max-w-container-large;
@@ -36,7 +41,7 @@
 }
 
 .nav-link{
-    @apply text-sm py-1 px-3.5 font-medium not-italic leading-none tracking-normal opacity-70 hover:font-bold text-blue-950 ;
+    @apply text-sm py-1 px-3.5 font-medium not-italic leading-none tracking-normal opacity-70 hover:font-bold ;
 }
 
 .line{

@@ -1,0 +1,40 @@
+header{
+    background-color: transparent;
+}
+
+header.scrolled{
+    background-color: white;
+    opacity: 0.9;
+}
+
+.nav-link{
+    color: white;
+}
+
+header.scrolled .nav-link{
+    color: rgb(30 58 138);
+}
+
+.flip-card{
+    perspective: 1000px;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-inner {
+    transform-style: preserve-3d;
+}
+
+.flip-card-front, .flip-card-back {
+    backface-visibility: hidden;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+.investor{
+    height: calc(100vh - 140px);
+}

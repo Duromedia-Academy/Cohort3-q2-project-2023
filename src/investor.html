@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="../dist/styles.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/38b7fa8614.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- NAV BAR SECTION -->
+
+    <header class="fixed top-0 z-50 w-full block">
+        <div class="container-sample">
+                <nav class="py-1 flex items-center bg-transparent lg:flex-row justify-start align-baseline">
+                  <a class="text-black py-3 px-0 inline-block mr-4 text-xl whitespace-nowrap no-underline" href="./home.html">
+                    <img src="../src/images/dangote-icon.svg" alt="logo" class="w-20">
+                    
+                  </a>
+                    <button class="max-[991px]:block min-[992px]:hidden menu-btn">
+                        <span class="line"></span> 
+                        <span class="line"></span> 
+                        <span class="line"></span>
+                    </button>
+                  
+                  <div class="max-[991px]:hidden min-[992px]:flex basis-auto grow items-center align-baseline">
+                      <ul class="flex flex-row md:ml-auto align-baseline justify-center items-center self-center">
+
+                        <li class="group flex self-center">
+                          <a href="./about.html" class="nav-link z-50">About Us</a>
+                          <div class="hidden m-5 group-hover:block group-hover:absolute group-hover:bg-white rounded-md group-hover:-ml-4">
+                              <ul class="w-40 h-44 text-left bg-transparent m-auto block">
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Who We Are</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Vision & Mission</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Leadership</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">History & Strategy</a></li>
+                              </ul>
+                          </div>
+                        </li>
+
+
+                        <li class="group flex self-center">
+                          <a href="./business.html" class="nav-link z-50">Our Businesses</a>
+                          <div class="hidden group-hover:grid group-hover:grid-cols-3 m-5 rounded-md py-5 px-20 group-hover:absolute group-hover:bg-white group-hover:-ml-4">
+                              <div>
+                                <ul class="w-52 h-64 text-left bg-transparent m-auto block">
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Cement Manufacturing</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Sugar Refining</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Salt & Seasonings</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Fertilizer</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Infrastructure</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Tomato Farming</a></li>
+                              </ul>
+                              </div>
+                              <div>
+                                <ul class="w-40 h-44 text-left bg-transparent m-auto block">
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Rice Farming</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Automotive</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Refinery</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Energy</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Petrochemicals</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Training Academy</a></li>
+                              </ul>
+                              </div>
+                              <div>
+                                <ul class="w-40 h-44 text-left bg-transparent m-auto block">
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Polysacks</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Real Estate</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Mining</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Logistics</a></li>
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Maritime</a></li>
+                              </ul>
+                              </div>
+                          </div>
+                        </li>
+    
+                       
+                          
+                           
+                        
+    
+                        <li class="flex self-center">
+                          <a class="nav-link" href="./sustain.html">Sustainability</a>
+                        </li>
+                        <li class="flex self-center">
+                          <a class="nav-link" href="./investor.html">Investor Relations</a>
+                        </li>
+
+                        <li class="group flex self-center">
+                          <a href="./foundation.html" class="nav-link z-50">Aliko Dangote Foundation</a>
+                          <div class="hidden group-hover:block group-hover:absolute m-5 group-hover:bg-white rounded-md group-hover:-ml-4">
+                              <ul class="w-40 text-left bg-transparent m-auto block">
+                                  <li class="text-xs w-auto m-3 p-2"><a href="#" class="text-blue-950 hover:font-semibold">Our Schemes</a></li>
+                              </ul>
+                          </div>
+                        </li>
+
+                        <li class="flex self-center">
+                          <a class="nav-link" href="#">Media</a>
+                        </li>
+                        <li class="flex self-center">
+                          <a class="nav-link" href="#">Career</a>
+                        </li>
+                        <li class="flex self-center">
+                          <a class="nav-link" href="#">Contact</a>
+                        </li>
+                      </ul>
+                  </div>
+                </nav>
+        </div>
+    </header>
+    
+    <main>
+
+        <section class="bg-investor-pattern bg-no-repeat bg-cover">
+
+            <div class="container-sample investor">
+                <div class="w-full h-full text-center table">
+                    <div data-aos="zoom-in" data-aos-duration="500" class="table-cell align-middle">
+                        <h1 class="text-[17px] leading-none text-center text-white my-[0.67em] mx-0">
+                            Investor Relations
+                        </h1>
+                        <h2 class="max-w-[655px] text-[48px] leading-[0.94] m-auto text-center text-white mb-[15px]">
+                            Identifying opportunities, creating value
+                        </h2>
+                        <p class="max-w-[500px] text-[18px] leading-none m-auto text-center text-white">
+                            We are in the business of making our products viable for our stakeholders at various levels. By being part of the Dangote brand, you're putting yourself on the path of profit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full h-[150px] py-[50px] px-0">
+                <div class="container-sample">
+                    <div class="md:mx-[8.33%]">
+                        <div class="grid grid-cols-3 gap-2">
+
+                            <div class="border-r border-solid border-[#ddd] max-[1024px]:border-r-0">
+                                <div>
+                                    <h3 class="max-w-[175px] text-[9px] font-black text-white mb-2 leading-[1.2] mt-0">DANGCEM:NL <span class="text-[5px] font-medium">Lagos</span></h3>
+                                    <h4 class="max-w-[115px] text-[9px] font-semibold text-white mb-2 leading-[1.2] mt-0">
+                                        Dangote Cement PLC
+                                    </h4>
+                                    <div class="grid grid-cols-2 max-[767px]:grid-cols-1">
+                                        <div>
+                                            <h5 class="max-w-[150px] text-[10px] leading-none text-white mb-2 mt-0">
+                                                -5.00 -1.35 %                                               
+                                            </h5>
+                                        </div>
+                                        <div>
+                                            <h6 class="max-w-[202px] text-[18px] font-black leadind-[0.96] text-white ml-[15px] max-[767px]:mt-0 mt-[-20px] mb-2">
+                                                365<span class="text-[10px]">NGN</span>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="border-r border-solid border-[#ddd] max-[1024px]:border-r-0">
+                                <div>
+                                    <h3 class="max-w-[175px] text-[9px] font-black text-white mb-2 leading-[1.2] mt-0">DANGSUGA:NL <span class="text-[5px] font-medium">Lagos</span></h3>
+                                    <h4 class="max-w-[115px] text-[9px] font-semibold text-white mb-2 leading-[1.2] mt-0">
+                                        Dangote Sugar Refinery PLC
+                                    </h4>
+                                    <div class="grid grid-cols-2 max-[767px]:grid-cols-1">
+                                        <div>
+                                            <h5 class="max-w-[150px] text-[10px] leading-none text-white mb-2 mt-0">
+                                                -1.65 -2.48 %                                              
+                                            </h5>
+                                        </div>
+                                        <div>
+                                            <h6 class="max-w-[202px] text-[18px] font-black leadind-[0.96] text-white ml-[15px] max-[767px]:mt-0 mt-[-20px] mb-2">
+                                                65<span class="text-[10px]">NGN</span>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <h3 class="max-w-[175px] text-[9px] font-black text-white mb-2 leading-[1.2] mt-0">NASCON:NL <span class="text-[5px] font-medium">Lagos</span></h3>
+                                    <h4 class="max-w-[115px] text-[9px] font-semibold text-white mb-2 leading-[1.2] mt-0">
+                                        NASCON Allied Industries PLC
+                                    </h4>
+                                    <div class="grid grid-cols-2 max-[767px]:grid-cols-1">
+                                        <div>
+                                            <h5 class="max-w-[150px] text-[10px] leading-none text-white mb-2 mt-0">
+                                                -0.75 -1.23 %                                               
+                                            </h5>
+                                        </div>
+                                        <div>
+                                            <h6 class="max-w-[202px] text-[18px] font-black leadind-[0.96] text-white ml-[15px] max-[767px]:mt-0 mt-[-20px] mb-2">
+                                                60<span class="text-[10px]">NGN</span>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="py-[60px] px-0 bg-[#f5f5f5]">
+            <div class="container-sample">
+                <div class="grid grid-cols-[1fr_2fr] gap-4 max-[767px]:grid-cols-1">
+
+                    <div>
+                    </div>
+
+                    <div>
+                        <div class="relative">
+
+                          <div class="h-[552px] max-w-full rounded-t-sm shadow-[0_2px_6px_0_rgba(0,0,0,0.07)]">
+                            <img class="object-cover object-top block h-full w-full" src="./images/invSec2img1.jpg" alt="">
+                          </div>
+
+                          <div class="absolute top-[130px] left-20">
+                            <h1 class="text-[18px] leading-[1.11] text-white my-[0.67em] mx-0">
+                              News
+                            </h1>
+                            <div class="mt-[40px] mb-[20px] py-0 pr-0 pl-[20px] border-l border-red-700 border-solid">
+                              <a class="no-underline" href="#">
+                                <h2 class="max-w-[371px] text-[29px] leading-[1.24] text-white mb-2 mt-0">
+                                  Dangote Refinery Raises Bar Through Education Scholarship 
+                                </h2>
+                              </a>
+                            </div>
+                            <a class="no-underline" href="#">
+                              <p class="max-w-[267px] text-[12px] leading-none text-white py-0 pr-0 pl-[20px] mt-[10px] mb-4"></p>
+                              <p class="max-w-[267px] text-[12px] leading-tight text-white py-0 pr-0 pl-[20px] mt-[10px] mb-4">
+                                As part of its Corporate Social Responsibility (CSR), Dangote Oil Refining Company has continued to bridge the educational gap in host communities through Scholarships, OLUSHOLA BELLO, writes.
+                              </p>
+                              <p class="max-w-[267px] text-[12px] leading-none text-white py-0 pr-0 pl-[20px] mt-[10px] mb-4"></p>
+                            </a>
+                          </div>
+
+                          <a class="no-underline" href="#"></a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="py-[50px] px-0">
+          <div class="container-sample">
+
+            <div>
+              <h1 class="text-[40px] font-black leading-none text-center text-[#1f1d5e] mt-[0.67em] mx-0 mb-[15px]">
+                Our Public Listed Companies
+              </h1>
+            </div>
+
+            <div class="mt-[40px] md:mx-[8.33%]">
+              <div class="grid gap-4 grid-cols-3 max-[767px]:grid-cols-1">
+
+                <div>
+                  <a href="#">
+                    <div class="relative max-w-full h-full bg-white ease-in-out delay-0 duration-[0.3s] hover:translate-y-[-2px]">
+
+                      <div class="h-[230px] max-w-full rounded-t-sm shadow-[0_2px_6px_0_rgba(0,0,0,0.07)]">
+                        <img class="object-cover object-top block h-full w-full" src="./images/invSec3img1.png" alt="">
+                      </div>
+
+                      <div class="py-[40px] px-[10px] bg-white h-[110px] shadow-[0_2px_14px_0_rgba(0,0,0,0.32)]">
+                        <h2 class="max-w-[300px] text-[15px] font-black leading-none text-[#100d5c] m-auto text-center mb-[10px]">
+                          DANGOTE CEMENT PLC
+                        </h2>
+                        <h4 class="max-w-[223px] text-[10px] leading-[1.6] text-[#100d5c] mb-2 mt-0"></h4>
+                      </div>
+
+                      <div class="absolute top-0 left-[20px] p-5 bg-white">
+                        <img class="w-[40px]" src="./images/invSec3img2.png" alt="">
+                      </div>
+
+                    </div>
+                  </a>
+                </div>
+
+                <div>
+                  <a href="#">
+                    <div class="relative max-w-full h-full bg-white ease-in-out delay-0 duration-[0.3s] hover:translate-y-[-2px]">
+
+                      <div class="h-[230px] max-w-full rounded-t-sm shadow-[0_2px_6px_0_rgba(0,0,0,0.07)]">
+                        <img class="object-cover object-top block h-full w-full" src="./images/invSec3img3.png" alt="">
+                      </div>
+
+                      <div class="py-[40px] px-[10px] bg-white h-[110px] shadow-[0_2px_14px_0_rgba(0,0,0,0.32)]">
+                        <h2 class="max-w-[300px] text-[15px] font-black leading-none text-[#100d5c] m-auto text-center mb-[10px]">
+                          DANGOTE SUGAR REFINERY PLC
+                        </h2>
+                        <h4 class="max-w-[223px] text-[10px] leading-[1.6] text-[#100d5c] mb-2 mt-0"></h4>
+                      </div>
+
+                      <div class="absolute top-0 left-[20px] p-5 bg-white">
+                        <img class="w-[40px]" src="./images/invSec3img4.png" alt="">
+                      </div>
+
+                    </div>
+                  </a>
+                </div>
+
+                <div>
+                  <a href="#">
+                    <div class="relative max-w-full h-full bg-white ease-in-out delay-0 duration-[0.3s] hover:translate-y-[-2px]">
+
+                      <div class="h-[230px] max-w-full rounded-t-sm shadow-[0_2px_6px_0_rgba(0,0,0,0.07)]">
+                        <img class="object-cover object-top block h-full w-full" src="./images/invSec3img5.png" alt="">
+                      </div>
+
+                      <div class="py-[40px] px-[10px] bg-white h-[110px] shadow-[0_2px_14px_0_rgba(0,0,0,0.32)]">
+                        <h2 class="max-w-[300px] text-[15px] font-black leading-none text-[#100d5c] m-auto text-center mb-[10px]">
+                          NASCON ALLIED INDUSTRIES PLC
+                        </h2>
+                        <h4 class="max-w-[223px] text-[10px] leading-[1.6] text-[#100d5c] mb-2 mt-0"></h4>
+                      </div>
+
+                      <div class="absolute top-0 left-[20px] p-5 bg-white">
+                        <img class="w-[40px]" src="./images/invSec3img6.png" alt="">
+                      </div>
+
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section class="py-[70px] px-0 bg-[#f5f5f5]">
+          <div class="container-sample">
+
+            <div>
+              <h1 class="text-[35px] font-black leading-none text-center my-[0.67em] mx-0 text-[#1f1d5e]">
+                Reports &amp; Presentations
+              </h1>
+              <p class="max-w-[641px] opacity-[0.88] text-[16px] m-auto leading-[1.81] text-center text-[#6d6d6d]">
+                Dangote Group has three listed companies on the Nigerian Stock Exchange (NSE) as part of its vision of being a world-class organization.
+              </p>
+            </div>
+
+            <div class="mt-[35px]">
+              <div class="md:mx-[16.67%]">
+                <div class="grid grid-cols-3 max-[767px]:grid-cols-1 place-items-start">
+
+                  <div>
+                    <img src="./images/invSec4img1.png" alt="">
+                    <a class="no-underline" href="#">
+                      <h2 class="max-w-[178px] text-[15px] font-semibold leading-[1.13] text-[#c7c7c7] hover:text-red-600 m-auto text-center cursor-pointer">
+                        Dangote Cement 2022 Annual Report <i class="fa-solid fa-download"></i>
+                      </h2>
+                    </a>
+                  </div>
+
+                  <div>
+                    <img src="./images/invSec4img2.png" alt="">
+                    <a class="no-underline" href="#">
+                      <h2 class="max-w-[178px] text-[15px] font-semibold leading-[1.13] text-[#c7c7c7] hover:text-red-600 m-auto text-center cursor-pointer">
+                        Dangote Sugar 2022 Annual Report <i class="fa-solid fa-download"></i>
+                      </h2>
+                    </a>
+                  </div>
+
+                  <div>
+                    <img src="./images/invSec4img3.png" alt="">
+                    <a class="no-underline" href="#">
+                      <h2 class="max-w-[178px] text-[15px] font-semibold leading-[1.13] text-[#c7c7c7] hover:text-red-600 m-auto text-center cursor-pointer">
+                        NASCON 2021 Annual Report <i class="fa-solid fa-download"></i>
+                      </h2>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section class="py-[70px] px-0">
+          <div class="container-sample">
+            <div class="md:mx-[8.33%]">
+
+              <div>
+                <h1 class="text-[40px] font-bold leading-none text-[#100d5c] mb-[25px] mt-[0.67em] mx-0">
+                  News Room
+                </h1>
+              </div>
+
+              <div class="grid grid-cols-3 max-[767px]:grid-cols-1">
+
+                <div class="relative">
+                  <div class="h-[265px] max-w-full rounded-t-sm shadow-[0_0_10px_rgba(33,33,33,0.2)]">
+                    <img class="object-cover object-top block h-full w-full" src="./images/invSec5img1.jpg" alt="">
+                  </div>
+                </div>
+
+                <div class="p-[12px] h-[265px] bg-white shadow-[0_0_10px_rgba(33,33,33,0.2)]">
+                  <a class="no-underline" href="#">
+                    <h1 class="max-w-[85px] text-[11px] leading-[1.82] text-[#100d5c] my-[0.67em] mx-0">
+                      PRESS RELEASE
+                    </h1>
+                    <h2 class="max-w-[260px] text-[15px] font-black leading-tight text-[#100d5c] mb-2 mt-0">
+                      Dangote Sugar pays N18.22bn Dividends, to produce 170,000 Tonnes next season
+                    </h2>
+                    <div class="border-l border-solid border-[#ec000b] my-0 mr-0 ml-[10px] py-0 pr-0 pl-[10px]">
+                      <p class="max-w-[159px] text-[10px] leading-[1.6] text-[#100d5c] mt-0 mb-4"></p>
+                      <p class="max-w-[159px] text-[10px] leading-[1.6] text-[#100d5c] mt-0 mb-4">
+                        Despite the economic headwinds that characterised 2022, Dangote Sugar Refinery Plc (DSR) will pay N18.22 billion as dividends to shareholders for the year ended December 31, 2022…
+                      </p>
+                      <p class="max-w-[159px] text-[10px] leading-[1.6] text-[#100d5c] mt-0 mb-4"></p>
+                    </div>
+                  </a>
+                </div>
+
+                <div></div>
+
+              </div>
+
+              <div class="grid grid-cols-[1fr_2fr] max-[767px]:grid-cols-1 gap-4 max-[767px]:gap-0 mt-[20px]">
+
+                <div class="relative">
+                  <div class="h-[265px] max-w-full">
+                    <img class="object-cover object-top block h-full w-full" src="./images/invSec5img2.png" alt="">
+                  </div>
+                  <a class="no-underline" href="#">
+
+                    <div class="absolute top-[30px] left-[45px]">
+                      <h1 class="max-w-[204px] text-[13px] font-black leading-none text-white my-[0.67em] mx-0">
+                        Infrastructure Gallery
+                      </h1>
+                    </div>
+
+                    <div class="absolute top-[50%] left-[50px] border-l border-solid border-[#ec000b]">
+                      <p class="max-w-[200px] text-[9px] leading-[1.23] text-white pl-[20px] mt-0 mb-4">
+                        Dangote concludes plan to secure 10,000 trucks from Indonesia
+                      </p>
+                    </div>
+
+                  </a>
+                </div>
+
+                <div></div>
+
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+
+    <section class="table table-fixed w-full bg-hero-pattern bg-cover bg-fixed bg-no-repeat h-[1041px] max-[464px]:h-[1100px] lg:h-[716px] md:h-[716px]">
+        <div class="table-cell align-middle w-full">
+  
+        <div class="container-sample">
+          <!-- Footer Grid layout -->
+          
+          <div class="grid md:grid-cols-4 min-[576px]:grid-cols-3 max-[575px]:grid-cols-2 max-[1023px]:gap-2.5">
+  
+            <div class="">
+              <h1 class="footer-h1">COMPANY</h1>
+              <p class="footer-p"><a href="#">About Us</a></p>
+              <p class="footer-p"><a href="#">Our Businesses</a></p>
+              <p class="footer-p"><a href="#">Investor Relations</a></p>
+              <p class="footer-p"><a href="#">Aliko Dangote Foundation</a></p>
+              <p class="footer-p"><a href="#">Career Opportunities</a></p>
+              <p class="footer-p"><a href="#">Contact Us</a></p>
+            </div>
+  
+            <div class="">
+              <h1 class="footer-h1">BUSINESSES</h1>
+              <p class="footer-p"><a href="#">Cement Manufacturing</a></p>
+        <p class="footer-p"><a href="#">Sugar Refining</a></p>
+        <p class="footer-p">Salt Refining &amp; Seasonings</p>
+        <p class="footer-p">Dangote Fertilizer</p>
+        <p class="footer-p">Dangote Oil Refinery</p>
+        <p class="footer-p"><a href="#">View all Businesses</a></p>
+            </div>
+  
+            <div class="">
+              <h1 class="footer-h1">GENERAL INQUIRIES</h1>
+              <p class="footer-p">Call : +234 1 448 0815  +234 1 448 0816</p>
+              <p class="footer-p">Fax : +234 1 463 0316  +234 1 271 2231</p>
+              <p class="footer-p">Email: communications@dangote.com</p>
+              <h2 class="text-3xl mb-2 font-medium leading-tight mt-0">
+                <a href="#" target="_blank">
+                  <i style="border: 1px solid white; border-radius: 50%;" class="social-icon fa fa-facebook"></i>
+                </a>  
+                <a href="#" target="_blank">
+                  <i style="border: 1px solid white; border-radius: 50%;" class="social-icon fa fa-twitter"></i>
+                </a> 
+                <a href="#" target="_blank">
+                  <i style="border: 1px solid white; border-radius: 50%;" class="social-icon fa fa-instagram"></i>
+                </a> 
+              </h2>
+            </div>
+  
+            <div class="">
+              <h1 class="footer-h1">NEWSLETTER</h1>
+              <p class="footer-p">Join our weekly mailing list</p>
+              <form class="form-margin align-baseline">
+                <div class="input-group align-baseline">
+                  <input class="footer-form-input" type="text" placeholder="Your email">
+                  <span class="align-baseline">
+                    <button class="footer-form-btn" type="button">Subscribe</button>
+                  </span>
+                </div>
+              </form>
+            </div>
+  
+          </div>
+          <br>
+          <hr class="my-4">
+          <br>
+          <div class="grid grid-cols-2 max-[767px]:block">
+            <div class="">
+              <img src="../src/images/logo1.png" alt="logo" class="w-20">
+            </div>
+            <div class="max-[767px]:mt-1">
+              <nav>
+                <a class="footer-anchor"> © 2023 Dangote Industries Limited.</a>
+                <a class="footer-anchor" href="#">Terms Of Use.</a>
+                <a class="footer-anchor" href="#">Privacy Policy</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+  
+        </div>
+    </section>
+    
+  
+  
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+      <script>
+        document.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+
+        if (window.scrollY > 0) {
+            header.classList.add('scrolled');
+        } else{
+            header.classList.remove('scrolled');
+        }
+        })
+      </script>
+    
+</body>
+</html>
