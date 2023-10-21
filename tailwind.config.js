@@ -17,6 +17,7 @@ module.exports = {
         'business-pattern': "url(../src/images/busSec1img1.jpg)",
         'sustain-pattern': "url(../src/images/sustainSec1img1.png)",
         'investor-pattern': "url(../src/images/invSec1img1.png)",
+        'foundation-pattern': "url(../src/images/adfSec1img1.png)",
       },
       lineHeight: {
         'extra-loose': '2.83',
