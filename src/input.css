@@ -55,3 +55,7 @@ body{
 .social-icon{
     @apply p-1 text-base w-7 h-7 text-center no-underline m-0 text-white ;
 }
+
+.media-top{
+    @apply flex md:items-center justify-between max-[767px]:flex-col max-[767px]:justify-start ;
+}
