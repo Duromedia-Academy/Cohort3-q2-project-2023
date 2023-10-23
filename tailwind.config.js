@@ -10,6 +10,10 @@ module.exports = {
         'container-large': '1140px',
       },
       backgroundImage: {
+        'home-pattern': "url(../src/images/homeSec1img1.jpg)",
+        'collage-pattern': "url(../src/images/homeSec2img1.jpg)",
+        'home-sustain-pattern': "url(../src/images/homeSec5img1.png)",
+        'home-impact-pattern': "url(../src/images/homeSec6img1.jpg)",
         'hero-pattern': "url(../src/images/eagle.svg)",
         'header-pattern': "url(../src/images/sustain-1.png)",
         'about-pattern': "url(../src/images/aboutSec1img1.jpg)",
@@ -19,6 +23,7 @@ module.exports = {
         'investor-pattern': "url(../src/images/invSec1img1.png)",
         'foundation-pattern': "url(../src/images/adfSec1img1.png)",
         'career-pattern': "url(../src/images/careerSec1img1.png)",
+        'contact-pattern': "url(../src/images/contactSec1img1.svg)",
       },
       lineHeight: {
         'extra-loose': '2.83',
