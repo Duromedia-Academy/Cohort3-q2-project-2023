@@ -59,3 +59,7 @@ body{
 .media-top{
     @apply flex md:items-center justify-between max-[767px]:flex-col max-[767px]:justify-start ;
 }
+
+.inv-btn{
+    @apply inline-block py-[10px] px-[15px] rounded-[1px] border border-solid border-[#979797] bg-transparent font-black text-center text-black mb-2 hover:text-white hover:bg-[#100d5c] hover:border-none hover:border ;
+}

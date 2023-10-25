@@ -38,3 +38,11 @@ header.scrolled .nav-link{
 .investor{
     height: calc(100vh - 140px);
 }
+
+.table-container {
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }

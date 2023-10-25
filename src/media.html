@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../dist/output.css" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
     <link href="../dist/styles.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/38b7fa8614.js" crossorigin="anonymous"></script>
@@ -416,7 +420,114 @@
 
                 <div class="md:mx-[8.33%]">
 
-                    <div class="h-[300px] shadow-[0_9px_11px_8px_rgba(0,0,0,0.12)]"></div>
+                    <!-- <div class="relative overflow-hidden max-w-full">
+
+                        <h1 class="text-[2em] my-[0.67em]">
+                            <span class="text-[18px] font-bold leading-none rounded-[3px] text-[#100d5c] bg-white py-[10px] px-[20px] shadow-[0_9px_11px_18px_rgba(0,0,0,0.12)] absolute top-[-5px] z-50">
+                                Videos
+                            </span>
+                        </h1>
+
+                    </div> -->
+
+                    <div>
+
+                        <!-- Slider main container -->
+                        <div class="swiper mySwiper-footer">
+                          <!-- Additional required wrapper -->
+                          <div class="swiper-wrapper relative">
+
+                            <h1 class="text-[2em] my-[0.67em]">
+                                <span class="text-[18px] font-bold leading-none rounded-[3px] text-[#100d5c] bg-white py-[10px] px-[20px] shadow-[0_9px_11px_18px_rgba(0,0,0,0.12)] absolute top-[-5px] z-50">
+                                    Videos
+                                </span>
+                            </h1>
+
+                            <!-- Slides -->
+                            <div class="swiper-slide" data-swiper-autoplay="3000">
+
+                                <div class="relative">
+
+                                    <div class="h-[320px] max-w-full">
+                                        <img class="w-full h-full object-cover object-top block" src="./images/homeSec7img3.jpg" alt="">
+                                    </div>
+
+                                    <div class="absolute top-[70px] left-[45px]">
+                                        <h1 class="max-w-[550px] text-[28px] font-black text-white mb-[15px] mt-[0.67em]">
+                                            Aliko Dangote: Africa’s richest man | Talk to Al Jazeera
+                                        </h1>
+                                        <h2 class="max-w-[420px] text-[12px] leading-[1.6] text-white mb-2">
+                                            <p class="text-[16px] leading-none text-white mb-4">
+                                                The continent’s wealthiest businessman talks about job creation, success and the opportunities.
+                                            </p>
+                                        </h2>
+                                        <p class="text-[16px] text-white mb-4 leading-none">
+                                            March 2, 2020, <span class="font-semibold">Our story</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="absolute top-[82%] left-[45px]">
+                                        <h2 class="font-medium leading-[1.2] text-[2rem] mb-2">
+                                            <a href="https://www.youtube.com/watch?v=OBnQ21NSpMw">
+                                                <div class="flex gap-2">
+                                                    <img src="./images/mediaplay.svg" alt="">
+                                                  <span class="text-[16px] leading-none text-white rounded-[20px] shadow-[0_9px_11px_8px_rgba(0,0,0,0.12)] border border-solid border-white py-[5px] px-[15px] align-middle">
+                                                    Read More
+                                                  </span>
+                                                </div>
+                                            </a>
+                                        </h2>
+                                    </div>
+
+                                </div>
+
+                            </div>
+      
+                            <div class="swiper-slide" data-swiper-autoplay="3000">
+
+                                <div class="relative">
+
+                                    <div class="h-[320px] max-w-full">
+                                        <img class="w-full h-full object-cover object-top block" src="./images/homeSec7img4.jpg" alt="">
+                                    </div>
+
+                                    <div class="absolute top-[70px] left-[45px]">
+                                        <h1 class="max-w-[550px] text-[28px] font-black text-white mb-[15px] mt-[0.67em]">
+                                            Mo in conversation with Aliko Dangote
+                                        </h1>
+                                        <p class="text-[16px] text-white mb-4 leading-none">
+                                            March 2, 2020, <span class="font-semibold">Our story</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="absolute top-[82%] left-[45px]">
+                                        <h2 class="font-medium leading-[1.2] text-[2rem] mb-2">
+                                            <a href="https://www.youtube.com/watch?v=XRBGX59O-gg">
+                                                <div class="flex gap-2">
+                                                    <img src="./images/mediaplay.svg" alt="">
+                                                  <span class="text-[16px] leading-none text-white rounded-[20px] shadow-[0_9px_11px_8px_rgba(0,0,0,0.12)] border border-solid border-white py-[5px] px-[15px] align-middle">
+                                                    Read More
+                                                  </span>
+                                                </div>
+                                            </a>
+                                        </h2>
+                                    </div>
+
+                                </div>
+
+                            </div>
+      
+                            
+                            
+                          </div>
+        
+                          <!-- If we need navigation buttons -->
+                          <div class="swiper-button-prev"></div>
+                          <div class="swiper-button-next"></div>
+      
+                        </div>
+      
+                      </div>
 
                     <div class="grid grid-cols-3 max-[767px]:grid-cols-1 gap-4 mt-[20px]">
 
@@ -569,9 +680,31 @@
   
   
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
       <script>
         AOS.init();
       </script>
+
+        <script>
+            const swiper2 = new Swiper(".mySwiper-footer", {
+            // Optional parameters
+            loop: true,
+            autoplay: {
+            delay: 3000, // Set the autoplay delay in milliseconds
+            disableOnInteraction: false, // Keep autoplay running even when user interacts with the slider
+            },
+
+            
+
+            // Navigation arrows
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+
+        
+        });
+        </script>
 
 </body>
 </html>
