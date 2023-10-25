@@ -11,6 +11,7 @@ module.exports = {
       },
       backgroundImage: {
         'home-pattern': "url(../src/images/homeSec1img1.jpg)",
+        'home-pattern2': "url(../src/images/homeSec1img1b.jpg)",
         'collage-pattern': "url(../src/images/homeSec2img1.jpg)",
         'home-sustain-pattern': "url(../src/images/homeSec5img1.png)",
         'home-impact-pattern': "url(../src/images/homeSec6img1.jpg)",
