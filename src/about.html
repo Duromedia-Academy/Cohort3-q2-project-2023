@@ -15,12 +15,12 @@
 
      <header class="fixed top-0 z-50 w-full block">
       <div class="container-sample">
-              <nav class="py-1 flex items-center bg-transparent lg:flex-row justify-start align-baseline">
+              <nav id="navbar" class="py-1 flex items-center bg-transparent lg:flex-row justify-start align-baseline">
                 <a class="text-black py-3 px-0 inline-block mr-4 text-xl whitespace-nowrap no-underline" href="./home.html">
-                  <img src="../src/images/dangote-icon.svg" alt="logo" class="w-20">
+                  <img id="navbarImage" src="../src/images/dangote-icon2.svg" alt="logo" class="w-20">
                   
                 </a>
-                  <button class="max-[991px]:block min-[992px]:hidden menu-btn">
+                  <button class="max-[991px]:block min-[992px]:hidden menu-btn" onclick="toggleMenu()">
                       <span class="line"></span> 
                       <span class="line"></span> 
                       <span class="line"></span>
@@ -109,6 +109,62 @@
                       </li>
                     </ul>
                 </div>
+
+                <div class="mobile-menu" id="menuLinks">
+                  <div class="min-[992px]:hidden menu-links bg-transparent">
+
+                    <div class="group">
+                      <a class="px-[20px] text-white" href="./about.html">About</a>
+                      <div class="submenu rounded-md group-hover:block bg-white text-black">
+                        <a href="#">Who We Are</a>
+                        <a href="#">Vision & Mission</a>
+                        <a href="#">Leadership</a>
+                        <a href="#">History & Strategy</a>
+                      </div>
+                    </div>
+                
+                    <div class="group">
+                        <a class="px-[20px] text-white" href="./business.html">Our Businesses</a>
+                      <div class="submenu rounded-md group-hover:block  bg-white text-black">
+              
+                        <a href="#">Cement Manufacturing</a>
+                        <a href="#">Sugar Refining</a>
+                        <a href="#">Salt & Seasonings</a>
+                        <a href="#">Fertilizer</a>
+                        <a href="#">Infrastructure</a>
+                        <a href="#">Tomato Farming</a>
+                        <a href="#">Rice Farming</a>
+                        <a href="#">Automotive</a>
+                        <a href="#">Refinery</a>
+                        <a href="#">Energy</a>
+                        <a href="#">Petrochemicals</a>
+                        <a href="#">Training Academy</a>
+                        <a href="#">Polysacks</a>
+                        <a href="#">Real Estate</a>
+                        <a href="#">Mining</a>
+                        <a href="#">Logistics</a>
+                        <a href="#">Maritime</a>
+
+                      </div>
+                    </div>
+
+                    <a class="px-[20px] text-white" href="./sustain.html">Sustainability</a>
+                    <a class="px-[20px] text-white" href="./investor.html">Investor Relations</a>
+                
+                    <div class="group">
+                        <a class="px-[20px] text-white" href="./foundation.html">Aliko Dangote Foundation</a>
+                      <div class="submenu rounded-md bg-white text-black group-hover:block" id="foundationSubmenu">
+                        <a href="#">Our Schemes</a>
+                      </div>
+                    </div>
+                
+                    
+                    <a class="px-[20px] text-white" href="./media.html">Media</a>
+                    <a class="px-[20px] text-white" href="./career.html">Career</a>
+                    <a class="px-[20px] text-white" href="./contact.html">Contact</a>
+                  </div>
+                </div>
+
               </nav>
       </div>
   </header>
@@ -466,6 +522,36 @@
       }
       })
     </script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+    var navbar = document.getElementById('navbar');
+    var navbarImage = document.getElementById('navbarImage');
+
+    updateNavbarImage();
+
+    window.addEventListener('scroll', function () {
+    updateNavbarImage();
+    });
+
+    function updateNavbarImage() {
+      
+    if (window.scrollY > 0) {
+    navbarImage.src = "../src/images/dangote-icon.svg";
+    } else {
+    navbarImage.src = "../src/images/dangote-icon2.svg";
+    }
+    }
+    });
+
+    </script>
+
+<script>
+  function toggleMenu() {
+    var menuLinks = document.getElementById('menuLinks');
+    menuLinks.classList.toggle('show');
+  }
+</script>
 
 </body>
 </html>

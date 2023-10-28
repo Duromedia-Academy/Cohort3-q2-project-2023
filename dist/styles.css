@@ -46,3 +46,45 @@ header.scrolled .nav-link{
   .active {
     display: block;
   }
+
+
+
+  .mobile-menu {
+    display: none; 
+  }
+
+  .show{
+    display: block; 
+  }
+
+  .menu-links {
+   
+   
+    opacity: 0.9;
+    padding: 10px;
+    position: fixed;
+    top: 58px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .menu-links a {
+    display: block;
+
+    text-decoration: none;
+  }
+
+  .submenu {
+    display: none;
+    
+    padding: 10px;
+  }
+
+  .submenu a {
+  
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+
+  }
