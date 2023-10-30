@@ -88,3 +88,22 @@ header.scrolled .nav-link{
     padding: 8px;
 
   }
+
+  .swiper-button-next,
+.swiper-button-prev {
+
+
+    right:10px;
+ 
+    color: white !important;
+  
+}
+
+.swiper-pagination-bullet {
+
+
+    right:10px;
+ 
+    background-color: white !important;
+  
+}
