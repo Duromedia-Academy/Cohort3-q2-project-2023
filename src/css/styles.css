@@ -60,10 +60,10 @@ header.scrolled .nav-link{
   .menu-links {
    
    
-    opacity: 0.9;
-    padding: 10px;
+    /* opacity: 0.9; */
+    padding: 20px;
     position: fixed;
-    top: 58px;
+    top: 70px;
     left: 0;
     width: 100%;
     z-index: 1000;
@@ -75,9 +75,13 @@ header.scrolled .nav-link{
     text-decoration: none;
   }
 
+  .fa-chevron-down{
+    width: 5px;
+  }
+
   .submenu {
     display: none;
-    
+    background-color: #898c8a;
     padding: 10px;
   }
 
