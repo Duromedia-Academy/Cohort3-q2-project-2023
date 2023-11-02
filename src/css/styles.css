@@ -75,9 +75,7 @@ header.scrolled .nav-link{
     text-decoration: none;
   }
 
-  .fa-chevron-down{
-    width: 5px;
-  }
+
 
   .submenu {
     display: none;
