@@ -2669,6 +2669,10 @@ body {
     flex-direction: column;
     justify-content: flex-start;
   }
+
+  .max-\[767px\]\:place-items-center {
+    place-items: center;
+  }
 }
 
 @media (min-width: 768px) {
